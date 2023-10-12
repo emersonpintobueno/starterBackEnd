@@ -1,0 +1,22 @@
+{
+  "name": "vendor_name/starterBackEnd",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Emerson Bueno",
+      "email": "emerson.bueno@newfold.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "App"
+    },
+    "files": [
+      "config.php"
+    ]
+  },
+  "require": {
+  }
+}
