@@ -12,8 +12,9 @@
                 $dado = json_decode($json, true);
                 $found=false;
                 if ($dado){
+                    $marca = strtolower($marca);
                     foreach ($dado as $item){
-                        if (isset($item['nome']) && strcasecmp($item['nome'], $marca) === 0){
+                        if (isset($item['nome']) && stripos($item['nome'], $marca) !== false){
                             $resultado[]=array(
                                 'codigo'=>$item['codigo'],
                                 'nome'=>$item['nome']

@@ -25,7 +25,7 @@ do padrão MVC.
 ### Endpoint 1
 
 - **Descrição**: Endpoint de pesquisa da marca. A mesma irá pesquisar pela marca informada na 
-URL, sem distinção de caracteres maiúsculos ou minúsculos. 
+URL, sem distinção de caracteres maiúsculos ou minúsculos, trazendo resultados parciais inclusos. 
 - **Método HTTP**: GET
 - **URL**: `https://api.meuimbigo.com.br/public/`
 - **Parâmetros**:
@@ -69,7 +69,7 @@ maintain this file, to keep on the MVC plataform model.
 
 - **Description**: Endpoint to search for the car makers. This will search on the API Fipe
 for the desired brand, and bring all the results found. The search has been developed
-to ignore sensitive case on the brands name.
+to ignore sensitive case on the brands name, and will bring partials results too.
 - **HTTP Method**: GET
 - **URL**: `https://api.meuimbigo.com.br/public/`
 - **Parameters**:
